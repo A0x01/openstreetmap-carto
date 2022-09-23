@@ -91,6 +91,6 @@ sources:
         - baghdad_muhallas.prj
         - baghdad_muhallas.shp
         - baghdad_muhallas.shx
-		- baghdad_muhallas.sbn
-		- baghdad_muhallas.sbx
-		- baghdad_muhallas.prf
+		    - baghdad_muhallas.sbn
+		    - baghdad_muhallas.sbx
+		    - baghdad_muhallas.prf
