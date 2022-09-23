@@ -55,6 +55,16 @@ Stylesheet:
   - style/addressing.mss
   - style/golf.mss
 Layer:
+  - id: world
+    name: world
+    geometry: polygon
+    <<: *extents
+    Datasource:
+      file: data1/baghdad_muhallas.shp
+      type: shape
+    properties:
+      maxzoom: 9
+
   - id: landcover-low-zoom
     geometry: polygon
     <<: *extents
