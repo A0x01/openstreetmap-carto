@@ -79,3 +79,18 @@ sources:
         - ne_110m_admin_0_boundary_lines_land.prj
         - ne_110m_admin_0_boundary_lines_land.shp
         - ne_110m_admin_0_boundary_lines_land.shx
+		MUHALLAHS_polygons:
+    type: shp
+    url: http://46.101.230.91:8080/MUHALLAHS.zip
+    file: baghdad_muhallas.shp
+    archive:
+      format: zip
+      files:
+        - baghdad_muhallas.cpg
+        - baghdad_muhallas.dbf
+        - baghdad_muhallas.prj
+        - baghdad_muhallas.shp
+        - baghdad_muhallas.shx
+		    - baghdad_muhallas.sbn
+		    - baghdad_muhallas.sbx
+		    - baghdad_muhallas.prf
